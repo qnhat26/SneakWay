@@ -686,6 +686,10 @@ html{
         font-size: 48%;
     }
 
+    .content-section{
+        padding: 0;
+    }
+
     /* ===== HEADER ===== */
     #header {
         height: 60px;
@@ -728,6 +732,10 @@ html{
 
     #nav-links .subnav {
         display: none !important;
+    }
+
+    #navbar #icon-btn {
+        display: none;
     }
 
     /* ===== SLIDER ===== */
@@ -773,12 +781,16 @@ html{
     .product-list {
         grid-template-columns: 1fr;
         gap: 20px;
-        padding: 20px;
     }
 
     .size-table {
         width: 100%;
         font-size: 1.4rem;
+    }
+
+    /* ==== SIZE ==== */
+    .size-content {
+        padding: 2rem;
     }
 
     /* ===== FEEDBACK ===== */
@@ -800,7 +812,7 @@ html{
 
     /* ===== CONTACT ===== */
     #information-content {
-        width: 95%;
+        width: 90%;
         padding: 20px;
         grid-template-columns: 1fr;
         grid-template-areas:
